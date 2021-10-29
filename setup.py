@@ -29,7 +29,7 @@ setuptools.setup(
         ['dask',
         'distributed',
         'numpy',
-        'pytorch',
+        'torch',
         'zarpaint',
         'pytest', 
         'sphinx']
