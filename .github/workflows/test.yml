@@ -44,6 +44,7 @@ jobs:
           pip install --upgrade pip
           pip install setuptools
           pip install .
+          python -c "import trackproof"
       
       - name: Pytest
         run: |
